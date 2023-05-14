@@ -20,7 +20,7 @@
       position: relative;
       color: var(--color-logo);
 
-      .navigation::after {
+      .navigation__link::after {
         content: '';
         border: 2px solid var(--color-logo);
         border-radius: 2px;
