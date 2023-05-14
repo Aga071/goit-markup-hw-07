@@ -40,7 +40,15 @@ body {
 .section-lorem {
   padding-bottom: 0;
 }
-
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.border-header {
+  border-bottom: 1px solid var(--border-header-color);
+}
 .link-navigation {
   display: flex;
   align-items: center;
@@ -168,11 +176,12 @@ body {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.container-text-start {
+  text-align: start;
+}
 .lorem-ipsum-list,
 .what-we-do-list,
 .our-team-list,
-.our-customers-list,
 .portfolio-list {
   display: flex;
   gap: 30px;
